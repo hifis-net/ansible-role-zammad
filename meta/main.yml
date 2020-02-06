@@ -1,0 +1,18 @@
+galaxy_info:
+  author: HIFIS Software Services
+  description: An Ansible Role that installs Zammad on Linux.
+  company: Helmholtz Association of German Research Centres
+  license: MIT
+  min_ansible_version: 2.9
+
+  platforms:
+    - name: Ubuntu
+      versions:
+        - bionic
+
+  galaxy_tags:
+    - zammad
+
+dependencies:
+  - elastic.elasticsearch
+  - geerlingguy.postgresql

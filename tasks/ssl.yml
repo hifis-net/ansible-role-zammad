@@ -1,0 +1,41 @@
+---
+
+- name:  SSL | Insert private key
+  blockinfile:
+    path: "{{ zammad_ssl_key_path }}"
+    create: true
+    block: |
+      {{ zammad_ssl_key }}
+    mode: 0640
+    owner: root
+    group: root
+
+- name: SSL | Insert certificate
+  blockinfile:
+    path: "{{ zammad_ssl_cert_path }}"
+    create: true
+    block: |
+      {{ zammad_ssl_cert }}
+    mode: 0644
+    owner: root
+    group: root
+
+- name: SSL | Check if certificate is still valid, ignoring failures
+  openssl_certificate_info:
+    path: "{{ zammad_ssl_cert_path }}"
+  register: certificate
+  ignore_errors: "{{ ansible_check_mode }}"
+
+- name: SSL | Ensure certificate and private key match
+  openssl_privatekey_info:
+    path: "{{ zammad_ssl_key_path }}"
+  register: private_key
+  ignore_errors: "{{ ansible_check_mode }}"
+
+- name: SSL | Validate that certificate is still valid
+  assert:
+    that:
+      - not certificate.expired
+      - certificate.public_key == private_key.public_key
+
+...

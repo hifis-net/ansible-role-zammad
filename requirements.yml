@@ -1,0 +1,7 @@
+---
+
+- src: elastic.elasticsearch
+  version: 7.5.2
+
+- src: geerlingguy.postgresql
+  version: 2.0.1
