@@ -14,5 +14,8 @@ galaxy_info:
     - zammad
 
 dependencies:
-  - elastic.elasticsearch
-  - geerlingguy.postgresql
+  - src: elastic.elasticsearch
+    version: 7.6.0
+
+  - src: geerlingguy.postgresql
+    version: 2.0.2
