@@ -4,8 +4,8 @@
 An Ansible Role that installs Zammad on Linux.
 
 ## Requirements
-
-This role has no further pre-requisites.
+The below requirements are needed on the target host:
+- PyOpenSSL >= 0.15 or cryptography >= 1.2.3
 
 ## Role Variables
 
@@ -32,12 +32,12 @@ File path to the SSL/TLS private key  which is used for HTTPS.
 ```yaml
 zammad_ssl_cert:
 ```
-Content of SSL/TLS certificate.
+Content of SSL/TLS certificate (**required**).
 
 ```yaml
 zammad_ssl_key:
 ```
-Content of SSL/TLS private key.
+Content of SSL/TLS private key (**required**).
 
 ## Dependencies
 
