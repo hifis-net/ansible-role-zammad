@@ -1,0 +1,21 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  validate:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Check out repository
+        uses: actions/checkout@v2
+
+      - name: Ansible-lint
+        uses: ansible/ansible-lint-action@master
+        with:
+          targets: "./"
+
+      - name: Yamllint
+        uses: karancode/yamllint-github-action@master
