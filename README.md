@@ -1,5 +1,5 @@
 # Ansible role: Zammad
-
+![](https://github.com/Helmholtz-UFZ/ansible-role-zammad/workflows/CI/badge.svg)
 
 An Ansible Role that installs Zammad on Linux.
 
