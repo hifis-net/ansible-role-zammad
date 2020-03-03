@@ -1,0 +1,15 @@
+---
+- name: Prepare
+  hosts: all
+  tasks:
+
+    - name: Install required packages
+      apt:
+        name:
+          - sudo
+          - gpg
+          - ca-certificates
+          - python3-cryptography
+          - ssl-cert
+        state: present
+        update_cache: yes
