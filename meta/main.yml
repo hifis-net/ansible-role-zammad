@@ -1,6 +1,7 @@
 galaxy_info:
+  role_name: zammad
+  description: Install Zammad helpdesk on Linux.
   author: HIFIS Software Services
-  description: An Ansible Role that installs Zammad on Linux.
   company: Helmholtz Association of German Research Centres
   license: MIT
   min_ansible_version: 2.9
