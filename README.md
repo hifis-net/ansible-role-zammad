@@ -39,6 +39,11 @@ zammad_ssl_key:
 ```
 Content of SSL/TLS private key (**required**).
 
+```yaml
+elasticsearch_url: "http://localhost:9200"
+```
+Elasticsearch server address.
+
 ## Dependencies
 
 Zammad requires Elasticsearch and PostgreSQL database server:

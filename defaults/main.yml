@@ -9,4 +9,5 @@ zammad_ssl_key_path: "/etc/ssl/private/zammad_key.pem"
 zammad_ssl_key:
 zammad_ssl_cert:
 
+elasticsearch_url: "http://localhost:9200"
 ...

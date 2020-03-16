@@ -10,7 +10,7 @@
     state: restarted
 
 - name: Set Elasticsearch server address
-  command: zammad run rails r "Setting.set('es_url', 'http://localhost:9200')"
+  command: zammad run rails r "Setting.set('es_url', '{{ elasticsearch_url | quote }}')"
 
 - name: Build search index
   command: zammad run rake searchindex:rebuild
