@@ -1,15 +1,6 @@
 ---
 - name: Converge
   hosts: all
-  vars:
-    # Apply suggested Elasticsearch configuration
-    es_config:
-      http.max_content_length: 400mb
-      indices.query.bool.max_clause_count: 2000
-
-    # Install ingest-attachment plugin (this step requires JMESPath)
-    es_plugins:
-      - plugin: ingest-attachment
   tasks:
 
     - name: Get private key content
