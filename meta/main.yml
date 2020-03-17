@@ -14,9 +14,4 @@ galaxy_info:
   galaxy_tags:
     - zammad
 
-dependencies:
-  - src: elastic.elasticsearch
-    version: 7.6.1
-
-  - src: geerlingguy.postgresql
-    version: 2.0.2
+dependencies: []

@@ -3,6 +3,8 @@
 
 An Ansible Role that installs Zammad on Linux.
 
+**Note:** This role does not install elasticsearch  and postgresql server. See 
+[Dependencies](#dependencies).
 ## Requirements
 The below requirements are needed on the target host:
 - PyOpenSSL >= 0.15 or cryptography >= 1.2.3
@@ -46,7 +48,8 @@ Elasticsearch server address.
 
 ## Dependencies
 
-Zammad requires Elasticsearch and PostgreSQL database server:
+Zammad requires Elasticsearch and PostgreSQL database server. This role has
+been successfully tested together with the following roles: 
 - Elasticsearch - [elastic.elasticsearch](https://galaxy.ansible.com/elastic/elasticsearch)
 - PostgreSQL - [geerlingguy.postgresql](https://galaxy.ansible.com/geerlingguy/postgresql)
 
