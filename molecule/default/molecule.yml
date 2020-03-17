@@ -2,7 +2,7 @@
 dependency:
   name: galaxy
   options:
-    role-file: requirements.yml
+    role-file: molecule/default/requirements.yml
 driver:
   name: docker
 platforms:
