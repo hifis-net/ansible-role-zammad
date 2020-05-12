@@ -12,6 +12,11 @@ The below requirements are needed on the target host:
 ## Role Variables
 
 ```yaml
+zammad_version: "3.3.0"
+```
+Zammad version to be installed.
+
+```yaml
 zammad_domain_name: "{{ ansible_fqdn }}"
 ```
 Zammad's fully qualified domain name.
