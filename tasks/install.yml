@@ -36,8 +36,9 @@
 
 - name: Install | Install Zammad package
   package:
-    name: zammad
+    name: zammad={{ zammad_version }}*
     state: present
+    force: yes
   notify:
     - Set Elasticsearch server address
     - Build search index
