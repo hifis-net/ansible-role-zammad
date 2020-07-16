@@ -1,8 +1,20 @@
 # Changelog
 
-## [1.0.0](https://github.com/helmholtz-ufz/ansible-role-zammad/tree/1.0.0) (2020-05-12)
+## [1.1.0](https://github.com/Helmholtz-UFZ/ansible-role-zammad/tree/1.1.0) (2020-07-16)
 
-[Full Changelog](https://github.com/helmholtz-ufz/ansible-role-zammad/compare/157bef1dfe6bc566f10f927ab929b3910d3ea986...1.0.0)
+[Full Changelog](https://github.com/Helmholtz-UFZ/ansible-role-zammad/compare/1.0.0...1.1.0)
+
+**Implemented enhancements:**
+
+- Allow to install packages from the development channel [\#3](https://github.com/Helmholtz-UFZ/ansible-role-zammad/issues/3)
+
+**Merged pull requests:**
+
+- Make Zammad release channel configurable [\#4](https://github.com/Helmholtz-UFZ/ansible-role-zammad/pull/4) ([tobiashuste](https://github.com/tobiashuste))
+
+## [1.0.0](https://github.com/Helmholtz-UFZ/ansible-role-zammad/tree/1.0.0) (2020-05-12)
+
+[Full Changelog](https://github.com/Helmholtz-UFZ/ansible-role-zammad/compare/157bef1dfe6bc566f10f927ab929b3910d3ea986...1.0.0)
 
 **Merged pull requests:**
 
