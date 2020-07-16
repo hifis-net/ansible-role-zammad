@@ -1,5 +1,6 @@
 ---
 zammad_version: "3.3.0"
+zammad_release_channel: "stable"
 zammad_domain_name: "{{ ansible_fqdn }}"
 
 zammad_nginx_config_path: "/etc/nginx/sites-available/zammad.conf"

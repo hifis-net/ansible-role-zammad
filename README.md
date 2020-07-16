@@ -17,6 +17,12 @@ zammad_version: "3.3.0"
 Zammad version to be installed.
 
 ```yaml
+zammad_release_channel: "stable"
+```
+Choose another release channel for the Zammad packages.
+Please refer to https://packager.io/gh/zammad/zammad for a complete list.
+
+```yaml
 zammad_domain_name: "{{ ansible_fqdn }}"
 ```
 Zammad's fully qualified domain name.
