@@ -12,8 +12,8 @@
       yum_repository:
         name: zammad
         state: present
-        description: Repository for zammad/zammad (stable) packages.
-        baseurl: https://dl.packager.io/srv/rpm/zammad/zammad/stable/el/7/$basearch
+        description: Repository for zammad/zammad ({{ zammad_release_channel }}) packages.
+        baseurl: https://dl.packager.io/srv/rpm/zammad/zammad/{{ zammad_release_channel }}/el/7/$basearch
         enabled: yes
         gpgcheck: no
         repo_gpgcheck: yes
@@ -29,7 +29,7 @@
 
     - name: Install | Add Zammad DEB repository
       apt_repository:
-        repo: deb https://dl.packager.io/srv/deb/zammad/zammad/stable/ubuntu {{ ansible_distribution_version }} main
+        repo: deb https://dl.packager.io/srv/deb/zammad/zammad/{{ zammad_release_channel }}/ubuntu {{ ansible_distribution_version }} main
         state: present
         filename: zammad
         update_cache: yes
