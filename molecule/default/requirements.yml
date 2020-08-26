@@ -4,4 +4,4 @@
   version: 7.9.0
 
 - src: geerlingguy.postgresql
-  version: 2.0.2
+  version: 2.2.1
