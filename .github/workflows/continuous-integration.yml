@@ -20,6 +20,9 @@ jobs:
   test:
     needs: validate
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        images: ['jrei/systemd-ubuntu:18.04', 'jrei/systemd-ubuntu:20.04']
     steps:
       - name: Check out repository
         uses: actions/checkout@v2
@@ -28,3 +31,5 @@ jobs:
 
       - name: Molecule test
         uses: robertdebock/molecule-action@2.6.1
+        env:
+          MOLECULE_IMAGE: "${{ matrix.images }}"
