@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.2.0](https://github.com/Helmholtz-UFZ/ansible-role-zammad/tree/1.2.0) (2020-08-27)
+
+[Full Changelog](https://github.com/Helmholtz-UFZ/ansible-role-zammad/compare/1.1.0...1.2.0)
+
+**Implemented enhancements:**
+
+- Add Ubuntu 20.04 focal support [\#8](https://github.com/Helmholtz-UFZ/ansible-role-zammad/issues/8)
+- Allow to optionally configure additional server directives in Nginx config [\#5](https://github.com/Helmholtz-UFZ/ansible-role-zammad/issues/5)
+- Allow to optionally configure additional Nginx server directives [\#7](https://github.com/Helmholtz-UFZ/ansible-role-zammad/pull/7) ([tobiashuste](https://github.com/tobiashuste))
+
+**Merged pull requests:**
+
+- molecule verify: Check wether Zammad web interface is available [\#12](https://github.com/Helmholtz-UFZ/ansible-role-zammad/pull/12) ([Normo](https://github.com/Normo))
+- Add Ubuntu 20.4 support [\#11](https://github.com/Helmholtz-UFZ/ansible-role-zammad/pull/11) ([Normo](https://github.com/Normo))
+- Update molecule action [\#10](https://github.com/Helmholtz-UFZ/ansible-role-zammad/pull/10) ([Normo](https://github.com/Normo))
+- Update requirements.yml [\#9](https://github.com/Helmholtz-UFZ/ansible-role-zammad/pull/9) ([Normo](https://github.com/Normo))
+- Install Zammad 3.4.0 by default [\#6](https://github.com/Helmholtz-UFZ/ansible-role-zammad/pull/6) ([Normo](https://github.com/Normo))
+
 ## [1.1.0](https://github.com/Helmholtz-UFZ/ansible-role-zammad/tree/1.1.0) (2020-07-16)
 
 [Full Changelog](https://github.com/Helmholtz-UFZ/ansible-role-zammad/compare/1.0.0...1.1.0)
