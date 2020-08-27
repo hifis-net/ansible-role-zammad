@@ -27,5 +27,4 @@ jobs:
           path: "${{ github.repository }}"
 
       - name: Molecule test
-#        uses: robertdebock/molecule-action@2.0.0
-        uses: normo/molecule-action@jmespath
+        uses: robertdebock/molecule-action@2.6.1
