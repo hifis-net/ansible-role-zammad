@@ -7,7 +7,7 @@ driver:
   name: docker
 platforms:
   - name: instance
-    image: jrei/systemd-ubuntu:18.04
+    image: ${MOLECULE_IMAGE:-jrei/systemd-ubuntu:20.04}
     pre_build_image: true
     privileged: true
     override_command: false
