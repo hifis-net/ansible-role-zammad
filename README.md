@@ -53,6 +53,29 @@ zammad_ssl_key:
 Content of SSL/TLS private key (**required**).
 
 ```yaml
+zammad_nginx_additional_server_configs:
+  - |
+      server {
+        listen 80;
+        server_name zammad.example.com zammad-old.example.com;
+        return 301 https://zammad.example.com$request_uri;
+      }
+  - |
+      server {
+        listen 443 ssl;
+
+        # ... SSL configuration
+
+        server_name zammad-old.example.com;
+        return 301 https://zammad.example.com$request_uri;
+      }
+```
+Configure additional server directives in the Nginx configuration.
+This allows to implement more use case specific adjustments, e.g.
+configuring multiple domains or the redirection of outdated domains to the
+most recent one.
+
+```yaml
 elasticsearch_url: "http://localhost:9200"
 ```
 Elasticsearch server address.
