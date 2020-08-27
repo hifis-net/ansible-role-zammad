@@ -1,9 +1,11 @@
 ---
-# This is an example playbook to execute Ansible tests.
-
 - name: Verify
   hosts: all
   tasks:
-  - name: Example assertion
-    assert:
-      that: true
+    - name: Check that Zammad web interface is available
+      uri:
+        url: https://localhost
+        validate_certs: no
+        return_content: yes
+      register: this
+      failed_when: "'Zammad Helpdesk' not in this.content"
