@@ -7,9 +7,6 @@ zammad_nginx_config_path: "/etc/nginx/sites-available/zammad.conf"
 zammad_ssl_cert_path: "/etc/ssl/certs/zammad_cert.pem"
 zammad_ssl_key_path: "/etc/ssl/private/zammad_key.pem"
 
-zammad_ssl_key:
-zammad_ssl_cert:
-
 zammad_nginx_additional_server_configs: []
 
 elasticsearch_url: "http://localhost:9200"
