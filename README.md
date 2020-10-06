@@ -56,7 +56,7 @@ Content of SSL/TLS private key (**required**).
 zammad_nginx_server_tokens: "off"
 ```
 Enable or disable emitting nginx version information in error pages or in the
-_Server_ response header field. Please read the NGinx
+_Server_ response header field. Please read the nginx
 [docs](http://nginx.org/en/docs/http/ngx_http_core_module.html#server_tokens)
 for further information.
 
