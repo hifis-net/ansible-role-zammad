@@ -54,7 +54,7 @@ Content of SSL/TLS private key (**required**).
 **Please note:** In the special case, that you previously put an SSL keypair
 on the host, e.g. via Let's Encrypt, you must not configure the variables
 `zammad_ssl_cert` and `zammad_ssl_key`. Nevertheless, in each case the role will
-alidate, if the SSL key pair given under the paths `zammad_ssl_key_path` and
+validate, if the SSL key pair is given under the paths `zammad_ssl_key_path` and
 `zammad_ssl_cert_path` are valid.
 
 ```yaml
