@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.3.0](https://github.com/Helmholtz-UFZ/ansible-role-zammad/tree/1.3.0) (2020-10-06)
+
+[Full Changelog](https://github.com/Helmholtz-UFZ/ansible-role-zammad/compare/1.2.0...1.3.0)
+
+**Implemented enhancements:**
+
+- Allow to disable Nginx version information [\#15](https://github.com/Helmholtz-UFZ/ansible-role-zammad/issues/15)
+- Allow to specify SSL certificates via path only [\#13](https://github.com/Helmholtz-UFZ/ansible-role-zammad/issues/13)
+
+**Merged pull requests:**
+
+- Bump elastic.elasticsearch from 7.9.0 to 7.9.2 [\#18](https://github.com/Helmholtz-UFZ/ansible-role-zammad/pull/18) ([tobiashuste](https://github.com/tobiashuste))
+- Install Zammad 3.5.0 by default [\#17](https://github.com/Helmholtz-UFZ/ansible-role-zammad/pull/17) ([tobiashuste](https://github.com/tobiashuste))
+- Allow to configure nginx server\_tokens directive [\#16](https://github.com/Helmholtz-UFZ/ansible-role-zammad/pull/16) ([tobiashuste](https://github.com/tobiashuste))
+- Allow to use SSL keypair given by path only [\#14](https://github.com/Helmholtz-UFZ/ansible-role-zammad/pull/14) ([tobiashuste](https://github.com/tobiashuste))
+
 ## [1.2.0](https://github.com/Helmholtz-UFZ/ansible-role-zammad/tree/1.2.0) (2020-08-27)
 
 [Full Changelog](https://github.com/Helmholtz-UFZ/ansible-role-zammad/compare/1.1.0...1.2.0)
