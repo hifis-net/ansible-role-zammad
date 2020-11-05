@@ -18,6 +18,7 @@
         gpgcheck: no
         repo_gpgcheck: yes
         gpgkey: https://dl.packager.io/srv/zammad/zammad/key
+        mode: 0644
 
 - when: ansible_distribution | lower == 'ubuntu'
   block:
@@ -33,6 +34,7 @@
         state: present
         filename: zammad
         update_cache: yes
+        mode: 0644
 
 - name: Install | Install Zammad package
   package:
