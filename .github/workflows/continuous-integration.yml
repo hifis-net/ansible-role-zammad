@@ -30,6 +30,6 @@ jobs:
           path: "${{ github.repository }}"
 
       - name: Molecule test
-        uses: robertdebock/molecule-action@2.6.1
+        uses: robertdebock/molecule-action@2.6.3
         env:
           MOLECULE_IMAGE: "${{ matrix.images }}"
