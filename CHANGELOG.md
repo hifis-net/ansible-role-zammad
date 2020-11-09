@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.4.0](https://github.com/Helmholtz-UFZ/ansible-role-zammad/tree/1.4.0) (2020-11-09)
+
+[Full Changelog](https://github.com/Helmholtz-UFZ/ansible-role-zammad/compare/1.3.0...1.4.0)
+
+**Implemented enhancements:**
+
+- Add Ansible Galaxy release job [\#23](https://github.com/Helmholtz-UFZ/ansible-role-zammad/pull/23) ([Normo](https://github.com/Normo))
+
+**Closed issues:**
+
+- Automate role import into Ansible Galaxy [\#19](https://github.com/Helmholtz-UFZ/ansible-role-zammad/issues/19)
+
+**Merged pull requests:**
+
+- Bump elastic.elasticsearch from 7.9.2 to 7.9.3 [\#22](https://github.com/Helmholtz-UFZ/ansible-role-zammad/pull/22) ([Normo](https://github.com/Normo))
+- Update molecule action [\#21](https://github.com/Helmholtz-UFZ/ansible-role-zammad/pull/21) ([Normo](https://github.com/Normo))
+- Explicitly set file permissions for repository files [\#20](https://github.com/Helmholtz-UFZ/ansible-role-zammad/pull/20) ([Normo](https://github.com/Normo))
+
 ## [1.3.0](https://github.com/Helmholtz-UFZ/ansible-role-zammad/tree/1.3.0) (2020-10-06)
 
 [Full Changelog](https://github.com/Helmholtz-UFZ/ansible-role-zammad/compare/1.2.0...1.3.0)
