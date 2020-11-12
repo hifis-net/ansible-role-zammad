@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/Helmholtz-UFZ/ansible-role-zammad/tree/HEAD)
+
+[Full Changelog](https://github.com/Helmholtz-UFZ/ansible-role-zammad/compare/1.4.0...HEAD)
+
+**Merged pull requests:**
+
+- Bump elastic.elasticsearch from 7.9.3 to 7.10.0 [\#24](https://github.com/Helmholtz-UFZ/ansible-role-zammad/pull/24) ([Normo](https://github.com/Normo))
+
 ## [1.4.0](https://github.com/Helmholtz-UFZ/ansible-role-zammad/tree/1.4.0) (2020-11-09)
 
 [Full Changelog](https://github.com/Helmholtz-UFZ/ansible-role-zammad/compare/1.3.0...1.4.0)
@@ -63,6 +71,7 @@
 **Merged pull requests:**
 
 - Make Zammad release channel configurable [\#4](https://github.com/Helmholtz-UFZ/ansible-role-zammad/pull/4) ([tobiashuste](https://github.com/tobiashuste))
+- Create GitHub actions workflow [\#1](https://github.com/Helmholtz-UFZ/ansible-role-zammad/pull/1) ([Normo](https://github.com/Normo))
 
 ## [1.0.0](https://github.com/Helmholtz-UFZ/ansible-role-zammad/tree/1.0.0) (2020-05-12)
 
@@ -71,7 +80,6 @@
 **Merged pull requests:**
 
 - Specify zammad version on installation [\#2](https://github.com/Helmholtz-UFZ/ansible-role-zammad/pull/2) ([Normo](https://github.com/Normo))
-- Create GitHub actions workflow [\#1](https://github.com/Helmholtz-UFZ/ansible-role-zammad/pull/1) ([Normo](https://github.com/Normo))
 
 
 
