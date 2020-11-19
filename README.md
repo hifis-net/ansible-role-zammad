@@ -1,9 +1,10 @@
 # Ansible role: Zammad
 ![](https://github.com/Helmholtz-UFZ/ansible-role-zammad/workflows/CI/badge.svg)
 
-An Ansible Role that installs Zammad on Linux.
+An Ansible Role that installs and configures the web-based open source user
+support/ticketing solution [Zammad](https://zammad.org/).
 
-**Note:** This role does not install elasticsearch  and postgresql server. See 
+**Note:** This role does not install elasticsearch  and postgresql server. See
 [Dependencies](#dependencies).
 ## Requirements
 The below requirements are needed on the target host:
@@ -12,7 +13,7 @@ The below requirements are needed on the target host:
 ## Role Variables
 
 ```yaml
-zammad_version: "3.3.0"
+zammad_version: "3.6.0"
 ```
 Zammad version to be installed.
 
