@@ -6,6 +6,8 @@
 
 **Merged pull requests:**
 
+- Bump geerlingguy.postgresql from 2.2.1 to 3.0.0 [\#26](https://github.com/Helmholtz-UFZ/ansible-role-zammad/pull/26) ([Normo](https://github.com/Normo))
+- Set Zammad 3.6.0 as default version [\#25](https://github.com/Helmholtz-UFZ/ansible-role-zammad/pull/25) ([Normo](https://github.com/Normo))
 - Bump elastic.elasticsearch from 7.9.3 to 7.10.0 [\#24](https://github.com/Helmholtz-UFZ/ansible-role-zammad/pull/24) ([Normo](https://github.com/Normo))
 
 ## [1.4.0](https://github.com/Helmholtz-UFZ/ansible-role-zammad/tree/1.4.0) (2020-11-09)
@@ -41,6 +43,7 @@
 - Install Zammad 3.5.0 by default [\#17](https://github.com/Helmholtz-UFZ/ansible-role-zammad/pull/17) ([tobiashuste](https://github.com/tobiashuste))
 - Allow to configure nginx server\_tokens directive [\#16](https://github.com/Helmholtz-UFZ/ansible-role-zammad/pull/16) ([tobiashuste](https://github.com/tobiashuste))
 - Allow to use SSL keypair given by path only [\#14](https://github.com/Helmholtz-UFZ/ansible-role-zammad/pull/14) ([tobiashuste](https://github.com/tobiashuste))
+- molecule verify: Check wether Zammad web interface is available [\#12](https://github.com/Helmholtz-UFZ/ansible-role-zammad/pull/12) ([Normo](https://github.com/Normo))
 
 ## [1.2.0](https://github.com/Helmholtz-UFZ/ansible-role-zammad/tree/1.2.0) (2020-08-27)
 
@@ -54,7 +57,6 @@
 
 **Merged pull requests:**
 
-- molecule verify: Check wether Zammad web interface is available [\#12](https://github.com/Helmholtz-UFZ/ansible-role-zammad/pull/12) ([Normo](https://github.com/Normo))
 - Add Ubuntu 20.4 support [\#11](https://github.com/Helmholtz-UFZ/ansible-role-zammad/pull/11) ([Normo](https://github.com/Normo))
 - Update molecule action [\#10](https://github.com/Helmholtz-UFZ/ansible-role-zammad/pull/10) ([Normo](https://github.com/Normo))
 - Update requirements.yml [\#9](https://github.com/Helmholtz-UFZ/ansible-role-zammad/pull/9) ([Normo](https://github.com/Normo))
@@ -71,7 +73,6 @@
 **Merged pull requests:**
 
 - Make Zammad release channel configurable [\#4](https://github.com/Helmholtz-UFZ/ansible-role-zammad/pull/4) ([tobiashuste](https://github.com/tobiashuste))
-- Create GitHub actions workflow [\#1](https://github.com/Helmholtz-UFZ/ansible-role-zammad/pull/1) ([Normo](https://github.com/Normo))
 
 ## [1.0.0](https://github.com/Helmholtz-UFZ/ansible-role-zammad/tree/1.0.0) (2020-05-12)
 
@@ -80,6 +81,7 @@
 **Merged pull requests:**
 
 - Specify zammad version on installation [\#2](https://github.com/Helmholtz-UFZ/ansible-role-zammad/pull/2) ([Normo](https://github.com/Normo))
+- Create GitHub actions workflow [\#1](https://github.com/Helmholtz-UFZ/ansible-role-zammad/pull/1) ([Normo](https://github.com/Normo))
 
 
 
