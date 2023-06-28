@@ -2,23 +2,20 @@
 dependency:
   name: galaxy
   options:
-    role-file: molecule/default/requirements.yml
+    requirements-file: molecule/default/requirements.yml
 driver:
-  name: docker
+  name: podman
 platforms:
   - name: instance
-    image: ${MOLECULE_IMAGE:-jrei/systemd-ubuntu:20.04}
+    image: ${MOLECULE_IMAGE:-ghcr.io/hifis-net/ubuntu-systemd:20.04}
     pre_build_image: true
     privileged: true
     override_command: false
-    volumes:
-      - /sys/fs/cgroup:/sys/fs/cgroup:ro
+    systemd: true
+    tty: true
     published_ports:
       - 0.0.0.0:8080:80
       - 0.0.0.0:8443:443
-lint: |
-  yamllint --strict --format colored .
-  ansible-lint -v --force-color
 provisioner:
   name: ansible
   playbooks:

@@ -1,7 +1,13 @@
 ---
 
-- src: elastic.elasticsearch
-  version: 7.10.0
 
-- src: geerlingguy.postgresql
-  version: 3.0.0
+collections:
+  - name: "community.crypto"
+    version: "2.14.1"  # Required due to https://github.com/ansible-collections/community.crypto/issues/627
+
+roles:
+  - src: geerlingguy.elasticsearch
+    version: 5.1.1
+
+  - src: geerlingguy.postgresql
+    version: 3.0.0

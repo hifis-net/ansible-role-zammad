@@ -1,5 +1,6 @@
 galaxy_info:
   role_name: zammad
+  namespace: hifis
   description: Install Zammad helpdesk on Linux.
   author: HIFIS Software Services
   company: Helmholtz Association of German Research Centres
