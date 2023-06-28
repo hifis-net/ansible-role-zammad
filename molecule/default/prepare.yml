@@ -15,7 +15,7 @@
   tasks:
 
     - name: Install required packages
-      apt:
+      ansible.builtin.apt:
         name:
           - sudo
           - gpg
@@ -26,9 +26,9 @@
         update_cache: yes
 
     - name: "Include geerlingguy.elasticsearch"
-      include_role:
+      ansible.builtin.include_role:
         name: "geerlingguy.elasticsearch"
 
     - name: "Include geerlingguy.postgresql"
-      include_role:
+      ansible.builtin.include_role:
         name: "geerlingguy.postgresql"
