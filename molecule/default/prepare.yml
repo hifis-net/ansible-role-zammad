@@ -3,13 +3,15 @@
   hosts: all
   vars:
     # Apply suggested Elasticsearch configuration
-    es_config:
+    elasticsearch_version: 8.x
+    elasticsearch_package: elasticsearch=8.8.1
+    elasticsearch_extra_options: |
+      xpack.security.enabled: false
+      xpack.security.http.ssl.enabled: false
+      xpack.security.transport.ssl.enabled: false
       http.max_content_length: 400mb
       indices.query.bool.max_clause_count: 2000
 
-    # Install ingest-attachment plugin (this step requires JMESPath)
-    es_plugins:
-      - plugin: ingest-attachment
   tasks:
 
     - name: Install required packages
@@ -23,9 +25,9 @@
         state: present
         update_cache: yes
 
-    - name: "Include elastic.elasticsearch"
+    - name: "Include geerlingguy.elasticsearch"
       include_role:
-        name: "elastic.elasticsearch"
+        name: "geerlingguy.elasticsearch"
 
     - name: "Include geerlingguy.postgresql"
       include_role:
