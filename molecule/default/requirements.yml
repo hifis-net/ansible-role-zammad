@@ -10,4 +10,4 @@ roles:
     version: 5.1.1
 
   - src: geerlingguy.postgresql
-    version: 3.0.0
+    version: 3.5.0
