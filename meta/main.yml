@@ -6,7 +6,7 @@ galaxy_info:
   company: Helmholtz Association of German Research Centres
   license: MIT
   issue_tracker_url: https://github.com/Helmholtz-UFZ/ansible-role-zammad/issues
-  min_ansible_version: "2.9"
+  min_ansible_version: "2.13"
 
   platforms:
     - name: Ubuntu
