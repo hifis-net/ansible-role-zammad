@@ -1,12 +1,12 @@
 ---
 
 - name: Install zammad
-  import_tasks: install.yml
+  ansible.builtin.import_tasks: install.yml
 
 - name: Set up SSL/TLS
-  import_tasks: ssl.yml
+  ansible.builtin.import_tasks: ssl.yml
 
 - name: Configure nginx
-  import_tasks: nginx-config.yml
+  ansible.builtin.import_tasks: nginx-config.yml
 
 ...
