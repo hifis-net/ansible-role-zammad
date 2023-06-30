@@ -1,0 +1,33 @@
+cff-version: '1.2.0'
+title: 'hifis.zammad Ansible role'
+message: >-
+  "If you use this Ansible role, please cite it as
+  below."
+abstract: 'Ansible role that installs and configures the support/ticketing solution Zammad.'
+type: 'software'
+authors:
+  - given-names: 'Norman'
+    family-names: 'Ziegner'
+    email: 'norman.ziegner@ufz.de'
+    affiliation: >-
+      Helmholtz Centre for Environmental Research
+      GmbH - UFZ
+    orcid: 'https://orcid.org/0000-0001-7579-216X'
+  - given-names: 'Tobias'
+    family-names: 'Huste'
+    email: 't.huste@hzdr.de'
+    affiliation: >-
+      Helmholtz-Zentrum Dresden-Rossendorf e. V.
+      (HZDR)
+    orcid: 'https://orcid.org/0000-0002-5590-7473'
+  - given-names: 'Christian'
+    family-names: 'Hüser'
+    email: 'c.hueser@hzdr.de'
+    affiliation: >-
+      Helmholtz-Zentrum Dresden-Rossendorf e. V.
+      (HZDR)
+    orcid: 'https://orcid.org/0000-0002-5028-6663'
+repository-code: 'https://github.com/hifis-net/ansible-role-zammad'
+repository-artifact: 'https://galaxy.ansible.com/hifis/zammad'
+version: '1.4.0'
+date-released: '2020-11-09'
