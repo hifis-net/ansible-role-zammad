@@ -5,8 +5,8 @@
     # Apply suggested Elasticsearch configuration
     elasticsearch_version: 8.x
     elasticsearch_package: elasticsearch=8.8.1
-    elasticsearch_heap_size_min: 256m
-    elasticsearch_heap_size_max: 256m
+    elasticsearch_heap_size_min: 128m
+    elasticsearch_heap_size_max: 128m
     elasticsearch_extra_options: |
       xpack.security.enabled: false
       xpack.security.http.ssl.enabled: false
