@@ -39,7 +39,7 @@
         mode: 0644
 
 - name: Install | Install Zammad package
-  ansible.builtin.package:
+  ansible.builtin.apt:
     name: zammad={{ zammad_version }}*
     state: present
     force: yes
