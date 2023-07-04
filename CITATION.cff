@@ -29,5 +29,5 @@ authors:
     orcid: 'https://orcid.org/0000-0002-5028-6663'
 repository-code: 'https://github.com/hifis-net/ansible-role-zammad'
 repository-artifact: 'https://galaxy.ansible.com/hifis/zammad'
-version: '1.4.0'
-date-released: '2020-11-09'
+version: 'v2.0.0'
+date-released: '2023-07-04'
