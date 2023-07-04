@@ -21,5 +21,7 @@ provisioner:
   playbooks:
     prepare: prepare.yml
     converge: converge.yml
+  env:
+    ANSIBLE_VERBOSITY: 3
 verifier:
   name: ansible
