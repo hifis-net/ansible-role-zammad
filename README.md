@@ -1,6 +1,8 @@
 # Ansible role: Zammad
 
 [![CI](https://github.com/hifis-net/ansible-role-zammad/actions/workflows/ci.yml/badge.svg)](https://github.com/hifis-net/ansible-role-zammad/actions/workflows/ci.yml)
+[![Ansible Galaxy Role](https://img.shields.io/ansible/role/62629?color=orange)](https://galaxy.ansible.com/hifis/zammad)
+[![Ansible Galaxy quality score](https://img.shields.io/ansible/quality/62629)](https://galaxy.ansible.com/hifis/zammad)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/hifis-net/ansible-role-zammad/blob/main/LICENSE.md)
 [![GitLab Release (latest by SemVer)](https://img.shields.io/github/v/release/hifis-net/ansible-role-zammad?color=blue&sort=semver)](https://github.com/hifis-net/ansible-role-zammad/releases)
 
