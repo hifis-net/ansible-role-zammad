@@ -52,6 +52,9 @@ jobs:
       - name: Prepare the job environment.
         uses: ./.github/workflows/prepare-action
 
+      - name: Collect Workflow Telemetry
+        uses: runforesight/workflow-telemetry-action@v1
+
       - name: Run Molecule tests.
         run: XDG_RUNTIME_DIR=/run/user/$UID pipenv run molecule test
         env:
