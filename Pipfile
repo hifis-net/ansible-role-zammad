@@ -8,7 +8,7 @@ ansible = "~=8.1.0"
 
 [dev-packages]
 ansible-lint = "~=6.17.2"
-molecule = "~=5.1.0"
+molecule = "~=6.0.3"
 molecule-plugins = {extras = ["podman"], version = "~=23.5.0"}
 yamllint = "~=1.33.0"
 
