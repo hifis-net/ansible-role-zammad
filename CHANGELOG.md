@@ -1,5 +1,28 @@
 # Changelog
 
+## [v2.1.0](https://github.com/hifis-net/ansible-role-zammad/tree/v2.1.0) (2024-03-12)
+
+[Full Changelog](https://github.com/hifis-net/ansible-role-zammad/compare/v2.0.0...v2.1.0)
+
+**Closed issues:**
+
+- Release version 2.0.0 [\#43](https://github.com/hifis-net/ansible-role-zammad/issues/43)
+
+**Merged pull requests:**
+
+- Bump ansible from 9.2.0 to 9.3.0 [\#80](https://github.com/hifis-net/ansible-role-zammad/pull/80) ([dependabot[bot]](https://github.com/apps/dependabot))
+- ci: install a recent podman version [\#79](https://github.com/hifis-net/ansible-role-zammad/pull/79) ([Normo](https://github.com/Normo))
+- Bump molecule-plugins from 23.5.0 to 23.5.3 [\#78](https://github.com/hifis-net/ansible-role-zammad/pull/78) ([dependabot[bot]](https://github.com/apps/dependabot))
+- fix: update nginx ssl ciphers to get TLSv1.2 working again [\#77](https://github.com/hifis-net/ansible-role-zammad/pull/77) ([Normo](https://github.com/Normo))
+- Bump yamllint from 1.33.0 to 1.35.1 [\#76](https://github.com/hifis-net/ansible-role-zammad/pull/76) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump molecule from 5.1.0 to 24.2.0 [\#75](https://github.com/hifis-net/ansible-role-zammad/pull/75) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump ansible-lint from 6.17.2 to 24.2.0 [\#73](https://github.com/hifis-net/ansible-role-zammad/pull/73) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump ansible from 8.1.0 to 9.2.0 [\#72](https://github.com/hifis-net/ansible-role-zammad/pull/72) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump yamllint from 1.32.0 to 1.33.0 [\#66](https://github.com/hifis-net/ansible-role-zammad/pull/66) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump actions/checkout from 3 to 4 [\#56](https://github.com/hifis-net/ansible-role-zammad/pull/56) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump molecule-plugins from 23.4.1 to 23.5.0 [\#51](https://github.com/hifis-net/ansible-role-zammad/pull/51) ([dependabot[bot]](https://github.com/apps/dependabot))
+- docs: add galaxy badges to README [\#49](https://github.com/hifis-net/ansible-role-zammad/pull/49) ([tobiashuste](https://github.com/tobiashuste))
+
 ## [v2.0.0](https://github.com/hifis-net/ansible-role-zammad/tree/v2.0.0) (2023-07-04)
 
 [Full Changelog](https://github.com/hifis-net/ansible-role-zammad/compare/1.4.0...v2.0.0)
@@ -11,25 +34,26 @@
 
 **Closed issues:**
 
+- Add CHANGELOG [\#30](https://github.com/hifis-net/ansible-role-zammad/issues/30)
 - Add CITATION.cff [\#39](https://github.com/hifis-net/ansible-role-zammad/issues/39)
 - Establish compatibility with Zammad \>= 6.0 [\#36](https://github.com/hifis-net/ansible-role-zammad/issues/36)
 - Update README [\#35](https://github.com/hifis-net/ansible-role-zammad/issues/35)
 - Unify the GitHub Actions workflow with other projects [\#31](https://github.com/hifis-net/ansible-role-zammad/issues/31)
-- Add CHANGELOG [\#30](https://github.com/hifis-net/ansible-role-zammad/issues/30)
 - Rename default branch to main [\#29](https://github.com/hifis-net/ansible-role-zammad/issues/29)
 - Add support for Ubuntu 22.04 [\#27](https://github.com/hifis-net/ansible-role-zammad/issues/27)
 
 **Merged pull requests:**
 
+- Bump geerlingguy.postgresql from 2.2.1 to 3.0.0 [\#26](https://github.com/hifis-net/ansible-role-zammad/pull/26) ([Normo](https://github.com/Normo))
+- Set Zammad 3.6.0 as default version [\#25](https://github.com/hifis-net/ansible-role-zammad/pull/25) ([Normo](https://github.com/Normo))
+- Bump elastic.elasticsearch from 7.9.3 to 7.10.0 [\#24](https://github.com/hifis-net/ansible-role-zammad/pull/24) ([Normo](https://github.com/Normo))
+- chore: prepare relase of version 2.0.0 [\#46](https://github.com/hifis-net/ansible-role-zammad/pull/46) ([tobiashuste](https://github.com/tobiashuste))
 - fix: properly check if the ssl variables are set [\#41](https://github.com/hifis-net/ansible-role-zammad/pull/41) ([tobiashuste](https://github.com/tobiashuste))
 - chore: add CITATION.cff [\#40](https://github.com/hifis-net/ansible-role-zammad/pull/40) ([Normo](https://github.com/Normo))
 - docs: update README information [\#38](https://github.com/hifis-net/ansible-role-zammad/pull/38) ([tobiashuste](https://github.com/tobiashuste))
 - style: fix ansible-lint violations [\#33](https://github.com/hifis-net/ansible-role-zammad/pull/33) ([tobiashuste](https://github.com/tobiashuste))
 - ci: fix and align GitHub Actions workflow [\#32](https://github.com/hifis-net/ansible-role-zammad/pull/32) ([tobiashuste](https://github.com/tobiashuste))
 - ci: configure Dependabot version updates [\#28](https://github.com/hifis-net/ansible-role-zammad/pull/28) ([tobiashuste](https://github.com/tobiashuste))
-- Bump geerlingguy.postgresql from 2.2.1 to 3.0.0 [\#26](https://github.com/hifis-net/ansible-role-zammad/pull/26) ([Normo](https://github.com/Normo))
-- Set Zammad 3.6.0 as default version [\#25](https://github.com/hifis-net/ansible-role-zammad/pull/25) ([Normo](https://github.com/Normo))
-- Bump elastic.elasticsearch from 7.9.3 to 7.10.0 [\#24](https://github.com/hifis-net/ansible-role-zammad/pull/24) ([Normo](https://github.com/Normo))
 
 ## [1.4.0](https://github.com/hifis-net/ansible-role-zammad/tree/1.4.0) (2020-11-09)
 
