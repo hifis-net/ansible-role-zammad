@@ -1,6 +1,6 @@
 # Changelog
 
-## [v2.1.0](https://github.com/hifis-net/ansible-role-zammad/tree/v2.1.0) (2024-03-12)
+## [v2.1.0](https://github.com/hifis-net/ansible-role-zammad/tree/v2.1.0) (2024-03-14)
 
 [Full Changelog](https://github.com/hifis-net/ansible-role-zammad/compare/v2.0.0...v2.1.0)
 
