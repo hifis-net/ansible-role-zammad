@@ -10,6 +10,8 @@
 
 **Merged pull requests:**
 
+- chore\(deps-dev\): bump ansible-lint from 24.2.0 to 24.2.1 [\#82](https://github.com/hifis-net/ansible-role-zammad/pull/82) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Prepare release 2.1.0 [\#81](https://github.com/hifis-net/ansible-role-zammad/pull/81) ([Normo](https://github.com/Normo))
 - Bump ansible from 9.2.0 to 9.3.0 [\#80](https://github.com/hifis-net/ansible-role-zammad/pull/80) ([dependabot[bot]](https://github.com/apps/dependabot))
 - ci: install a recent podman version [\#79](https://github.com/hifis-net/ansible-role-zammad/pull/79) ([Normo](https://github.com/Normo))
 - Bump molecule-plugins from 23.5.0 to 23.5.3 [\#78](https://github.com/hifis-net/ansible-role-zammad/pull/78) ([dependabot[bot]](https://github.com/apps/dependabot))
