@@ -1,8 +1,7 @@
 # Ansible role: Zammad
 
 [![CI](https://github.com/hifis-net/ansible-role-zammad/actions/workflows/ci.yml/badge.svg)](https://github.com/hifis-net/ansible-role-zammad/actions/workflows/ci.yml)
-[![Ansible Galaxy Role](https://img.shields.io/ansible/role/62629?color=orange)](https://galaxy.ansible.com/hifis/zammad)
-[![Ansible Galaxy quality score](https://img.shields.io/ansible/quality/62629)](https://galaxy.ansible.com/hifis/zammad)
+[![Ansible Galaxy Role](https://img.shields.io/ansible/role/d/hifis/zammad)](https://galaxy.ansible.com/hifis/zammad)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/hifis-net/ansible-role-zammad/blob/main/LICENSE.md)
 [![GitLab Release (latest by SemVer)](https://img.shields.io/github/v/release/hifis-net/ansible-role-zammad?color=blue&sort=semver)](https://github.com/hifis-net/ansible-role-zammad/releases)
 
@@ -21,7 +20,7 @@ The below requirements are needed on the target host:
 ## Role Variables
 
 ```yaml
-zammad_version: "6.0.0"
+zammad_version: "6.2.0"
 ```
 
 Zammad version to be installed.
@@ -137,4 +136,4 @@ MIT
 
 ## Author Information
 
-This role was created in 2020 by [HIFIS Software Services](https://software.hifis.net/).
+This role was created in 2020 by [HIFIS Software Services](https://hifis.net/).
