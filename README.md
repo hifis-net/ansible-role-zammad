@@ -1,5 +1,12 @@
 # Ansible role: Zammad
 
+:warning: **This project is archived!** :warning:
+
+This role has been migrated to our `hifis.toolkit` collection:
+
+- <https://github.com/hifis-net/ansible-collection-toolkit>
+- <https://galaxy.ansible.com/ui/repo/published/hifis/toolkit/>
+
 [![CI](https://github.com/hifis-net/ansible-role-zammad/actions/workflows/ci.yml/badge.svg)](https://github.com/hifis-net/ansible-role-zammad/actions/workflows/ci.yml)
 [![Ansible Galaxy Role](https://img.shields.io/ansible/role/d/hifis/zammad)](https://galaxy.ansible.com/hifis/zammad)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/hifis-net/ansible-role-zammad/blob/main/LICENSE.md)
