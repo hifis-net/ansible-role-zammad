@@ -1,4 +1,7 @@
 ---
+- name: Deprecation notice.
+  ansible.builtin.debug:
+    msg: "DEPRECATION NOTICE: This role has been migrated to the hifis.toolkit collection (https://github.com/hifis-net/ansible-collection-toolkit)."
 
 - name: Install zammad
   ansible.builtin.import_tasks: install.yml
